@@ -1,0 +1,88 @@
+/* Generics */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
+
+/* Utils */
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.container-big{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.float{
+    float: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.btn{
+    background-color: #0061FF;
+}
+
+.btn a:first-child{
+   padding: 20px;
+   color: white;
+}
+
+/* Header */
+
+header{
+    /* background-color: #f6f6f6; */
+    height: 70px;
+}
+
+.header-nav{
+    padding: 20px 15px;
+}
+
+.header-nav li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.left-nav li{
+    margin-left: 20px;
+}
+
+/* Jumbotron */
+
+.jumbo{
+    height: 800px;
+    background-color: #B4D0E7;
+}
