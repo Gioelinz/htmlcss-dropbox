@@ -44,13 +44,30 @@ body{
     width: 50%;
 }
 
+.w-40{
+    width: 40%;
+}
+
+.w-10{
+    width: 5%;
+}
+
 .btn{
     background-color: #0061FF;
 }
 
-.btn a:first-child{
-   padding: 20px;
+#head-btn{
+   background-color: #0061FF;
+   text-decoration: none;
    color: white;
+   padding: 5px 20px;
+   position: absolute;
+   top: 18px;
+   right: 20px;
+}
+
+#head-btn:hover{
+    opacity: 80%;
 }
 
 /* Header */
@@ -62,6 +79,7 @@ header{
 
 .header-nav{
     padding: 20px 15px;
+    position: relative;
 }
 
 .header-nav li{
@@ -78,6 +96,10 @@ header{
 
 .left-nav li{
     margin-left: 20px;
+}
+
+.right-nav{
+    margin-left: 80px;
 }
 
 /* Jumbotron */
