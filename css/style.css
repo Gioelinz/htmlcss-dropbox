@@ -40,6 +40,10 @@ body{
     text-align: right;
 }
 
+.margin-section{
+    margin-top: 100px;
+}
+
 .margin-p{
     margin-top: 10px;
 }
@@ -73,6 +77,7 @@ body{
     color: white;
     line-height: 35px;
     padding: 20px;
+    font-weight: bold;
 }
 
 a{
@@ -122,7 +127,7 @@ header{
 }
 
 .right-nav{
-    margin-left: 80px;
+    margin-left: 140px;
 }
 
 /* Jumbotron */
@@ -152,9 +157,52 @@ h1{
 }
 
 
-
-
 #jumbo-img{
     width: 100%;
     margin-left: 50px;
+}
+
+/* Main Piani Business */
+
+.main-plans{
+    margin-top: 150px;
+}
+
+.main-plans h2{
+    font-size: 3em ;
+    margin-bottom: 60px;
+}
+
+.far.fa-circle{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fas.fa-circle{
+    color: white;
+    border: 3px solid blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.col-plans{
+    width: 33%;
+    margin-top: 40px;
+}
+
+.type-plans{
+    border: 1px solid black;
+}
+
+.info-plans{
+    border: 1px solid black;
+    border-top: 0;
+}
+
+.cont-plans{
+    margin: 0 20px;
+}
+
+.btn.btn-plans{
+    width: 100%;
 }
