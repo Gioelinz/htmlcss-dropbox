@@ -94,7 +94,7 @@ a{
    right: 20px;
 }
 
-#head-btn:hover{
+.btn:hover, #head-btn:hover{
     opacity: 80%;
 }
 
@@ -186,23 +186,59 @@ h1{
 }
 
 .col-plans{
-    width: 33%;
+    width: 30%;
     margin-top: 40px;
 }
 
 .type-plans{
-    border: 1px solid black;
+    border: 1px solid lightgray;
+    min-height: 40px;
+    line-height: 40px;
 }
 
 .info-plans{
-    border: 1px solid black;
+    border: 1px solid lightgray;
     border-top: 0;
+    min-height: 1000px;
 }
 
 .cont-plans{
-    margin: 0 20px;
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cont-plans h3{
+    font-size: 1.6em;
+    margin: 25px 0 15px 0;
+}
+
+.cont-plans .price{
+    margin-bottom: 10px;
+}
+
+.options{
+    margin-bottom: 30px;
+}
+
+.cont-plans p{
+    margin: 20px 0;
+}
+
+.cont-plans h5{
+    font-size: 1.2em;
 }
 
 .btn.btn-plans{
     width: 100%;
+    margin: 30px 0 20px 0;
+}
+
+.cont-plans hr{
+    width: 60px;
+    margin: 30px 0 40px 0;
+}
+
+.cont-plans ul{
+    list-style-type: none;
 }
