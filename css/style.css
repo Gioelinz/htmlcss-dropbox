@@ -40,6 +40,14 @@ body{
     text-align: right;
 }
 
+.margin-p{
+    margin-top: 10px;
+}
+
+.w-70{
+    width: 70%;
+}
+
 .w-50{
     width: 50%;
 }
@@ -48,12 +56,27 @@ body{
     width: 40%;
 }
 
+.w-30{
+    width: 30%;
+}
+
 .w-10{
     width: 5%;
 }
 
 .btn{
     background-color: #0061FF;
+    display: inline-block;
+}
+
+.btn .btn-big{
+    color: white;
+    line-height: 35px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
 }
 
 #head-btn{
@@ -74,7 +97,7 @@ body{
 
 header{
     /* background-color: #f6f6f6; */
-    height: 70px;
+    min-height: 70px;
 }
 
 .header-nav{
@@ -107,4 +130,31 @@ header{
 .jumbo{
     height: 800px;
     background-color: #B4D0E7;
+}
+
+h1{
+    font-size: 5em;
+    font-weight: 900;
+}
+
+.main-jumbo{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.content-jumbo{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.content-jumbo p{
+    margin-bottom: 40px;
+}
+
+
+
+
+#jumbo-img{
+    width: 100%;
+    margin-left: 50px;
 }
