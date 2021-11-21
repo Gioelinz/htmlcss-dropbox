@@ -52,6 +52,10 @@ body{
     width: 70%;
 }
 
+.w-60{
+    width: 60%;
+}
+
 .w-50{
     width: 50%;
 }
@@ -66,6 +70,10 @@ body{
 
 .w-10{
     width: 5%;
+}
+
+h3{
+    font-size: 1.6em;
 }
 
 .btn{
@@ -281,5 +289,29 @@ h1{
 
 /* Sezione Partner */
 .main-partner{
-    
+    margin: 150px 0;
+}
+
+.main-partner img{
+    max-width: 90%;
+}
+
+.main-partner h3{
+    margin: 30px 0 20px 0;
+}
+
+.main-partner p{
+    line-height: 30px;
+}
+
+#partner-button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#partner-button:hover{
+    background-color: lightgrey;
 }
