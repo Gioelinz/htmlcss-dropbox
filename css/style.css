@@ -124,6 +124,7 @@ header{
     background-color: white;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .header-nav{
@@ -164,7 +165,7 @@ h1{
 }
 
 .main-jumbo{
-    margin-top: 50px;
+    margin-top: 80px;
     display: inline-block;
 }
 
@@ -350,4 +351,97 @@ h1{
 
 .margin-cards{
     margin: 0 60px;
+}
+
+/* Sezione Clienti */
+
+.main-sponsors{
+    margin-top: 60px;
+}
+
+.main-sponsors img{
+    max-width: 60%;
+    filter: invert(1);
+}
+
+.center-image{
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-sponsor{
+    min-height: 381px;
+    width: 50%;
+    position: relative;
+}
+
+.info-sponsors{
+    background-color: #F5F5F5;
+    height: 762px;
+}
+
+.info-sponsors img{
+    filter: invert(0);
+    width: 200px;
+    margin: 50px 40px;
+}
+
+.info-sponsors hr{
+    width: 10%;
+    margin-left: 40px;
+}
+
+.info-sponsors p{
+    margin: 60px 40px;
+    font-size: 1.6em;
+}
+
+
+
+/* Colori Background sponsors */
+
+.bg-green{
+    background-color: #A2D39B;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-darkred{
+    background-color: #61082B;
+}
+
+.bg-blue{
+    background-color: #0D2481;
+}
+
+.bg-acquablue{
+    background-color: #0093CE;
+}
+
+.bg-lightblue{
+    background-color: #B4D0E7;
+}
+
+.bg-yellow{
+    background-color: #FFD830;
+}
+
+/* Sezione prova gratuita */
+
+.try-section{
+    background-color: #B4D0E7;
+    min-height: 500px;
+}
+
+#try-button{
+    color: black;
+    background-color: white;
+    padding: 6px 50px;
+    display: inline-block;
 }
