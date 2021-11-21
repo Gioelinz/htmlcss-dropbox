@@ -80,6 +80,7 @@ body{
     font-weight: bold;
 }
 
+
 a{
     text-decoration: none;
 }
@@ -185,10 +186,19 @@ h1{
     cursor: pointer;
 }
 
+.container-plans{
+    width: 100%;
+}
+
+.margin-plans{
+    margin: 40px 60px;
+}
+
 .col-plans{
     width: 30%;
     margin-top: 40px;
 }
+
 
 .type-plans{
     border: 1px solid lightgray;
@@ -201,6 +211,7 @@ h1{
     border-top: 0;
     min-height: 1000px;
 }
+
 
 .cont-plans{
     margin-left: 30px;
@@ -215,6 +226,7 @@ h1{
 
 .cont-plans .price{
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .options{
@@ -241,4 +253,33 @@ h1{
 
 .cont-plans ul{
     list-style-type: none;
+}
+
+.bottom-plans{
+    width: 100%;
+    min-height: 200px;
+}
+
+.bottom-plans h3{
+    font-size: 1.6em;
+    margin: 20px 20px;
+}
+
+.bottom-plans h4, .bottom-plans p{
+    margin: 20px 20px;
+}
+
+.info-contact{
+    border: 1px solid lightgray;
+    border-top: 0;
+}
+
+.btn.btn-contact{
+    margin: 30px;
+    width: 80%;
+}
+
+/* Sezione Partner */
+.main-partner{
+    
 }
