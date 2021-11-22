@@ -84,10 +84,45 @@ h3{
     font-size: 1.6em;
 }
 
+a{
+    text-decoration: none;
+}
 .underline{
     text-decoration: underline;
     cursor: pointer;
 }
+
+/* Colori Background sponsors */
+
+.bg-green{
+    background-color: #A2D39B;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-darkred{
+    background-color: #61082B;
+}
+
+.bg-blue{
+    background-color: #0D2481;
+}
+
+.bg-acquablue{
+    background-color: #0093CE;
+}
+
+.bg-lightblue{
+    background-color: #B4D0E7;
+}
+
+.bg-yellow{
+    background-color: #FFD830;
+}
+
+/* Buttons */
 
 .btn{
     background-color: #0061FF;
@@ -102,22 +137,29 @@ h3{
 }
 
 
-a{
-    text-decoration: none;
-}
-
 #head-btn{
    background-color: #0061FF;
    text-decoration: none;
    color: white;
-   padding: 5px 20px;
-   position: absolute;
-   top: 18px;
-   right: 20px;
+   padding: 5px 15px;
+   display: inline;
+   margin-left: 10px;
 }
 
 .btn:hover, #head-btn:hover{
     opacity: 80%;
+}
+
+#partner-button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#partner-button:hover{
+    background-color: lightgrey;
 }
 
 /* Header */
@@ -137,11 +179,11 @@ header{
 .header-nav{
     /* padding: 20px 15px; */
     line-height: 70px;
-    position: relative;
 }
 
 #logo{
-    padding: 20px;
+    padding: 22px;
+    cursor: pointer;
 }
 
 
@@ -162,12 +204,13 @@ header{
 
 
 .left-nav li{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .right-nav{
-    margin-left: 100px;
+    margin-left: 220px;
 }
+
 
 /* Jumbotron */
 
@@ -334,17 +377,7 @@ h1{
     line-height: 30px;
 }
 
-#partner-button{
-    padding: 10px 20px;
-    border: 1px solid black;
-    color: black;
-    display: inline-block;
-    margin-top: 20px;
-}
 
-#partner-button:hover{
-    background-color: lightgrey;
-}
 
 /* Sezione cards */
 
@@ -426,35 +459,6 @@ h1{
 
 
 
-/* Colori Background sponsors */
-
-.bg-green{
-    background-color: #A2D39B;
-}
-
-.bg-red{
-    background-color: red;
-}
-
-.bg-darkred{
-    background-color: #61082B;
-}
-
-.bg-blue{
-    background-color: #0D2481;
-}
-
-.bg-acquablue{
-    background-color: #0093CE;
-}
-
-.bg-lightblue{
-    background-color: #B4D0E7;
-}
-
-.bg-yellow{
-    background-color: #FFD830;
-}
 
 /* Sezione Clienti */
 
