@@ -88,6 +88,7 @@ h3{
 a{
     text-decoration: none;
 }
+
 .underline{
     text-decoration: underline;
     cursor: pointer;
@@ -381,6 +382,7 @@ h1{
 }
 
 /* Sezione Partner */
+
 .main-partner{
     margin: 150px 0;
 }
@@ -431,7 +433,7 @@ h1{
 }
 
 .container-radio input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: #0061FF;
 }
 
 .checkmark:after {
@@ -478,6 +480,10 @@ h1{
 }
 
 /* Sezione Clienti */
+
+.customers{
+    margin-top: 100px;
+}
 
 .main-sponsors{
     margin-top: 60px;
@@ -530,16 +536,6 @@ h1{
     margin: 60px 40px;
     font-size: 1.6em;
 }
-
-
-
-
-/* Sezione Clienti */
-
-.clients{
-    margin-top: 100px;
-}
-
 
 /* Sezione prova gratuita */
 
