@@ -628,11 +628,11 @@ h1{
     display: none;
 }
 
-.asks:hover .fa-chevron-up{
+.dropdown-asks:hover .fa-chevron-up{
     display: inline-block;
 }
 
-.asks:hover .fa-chevron-down{
+.dropdown-asks:hover .fa-chevron-down{
     display: none;
 }
 
