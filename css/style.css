@@ -256,6 +256,7 @@ header{
 
 .jumbo{
     height: 800px;
+    margin-top: 50px;
     background-color: #B4D0E7;
 }
 
@@ -306,7 +307,7 @@ h1{
 /* Main Piani Business */
 
 .main-plans{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .main-plans h2{
