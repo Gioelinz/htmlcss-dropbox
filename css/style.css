@@ -355,9 +355,15 @@ h1{
 
 
 .cont-plans{
-    margin-left: 30px;
+    margin: 0 30px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.cont-plans ul{
+    list-style-type: none;
+    padding-left: 20px;
+    text-indent: -20px;
 }
 
 .cont-plans h3{
@@ -374,7 +380,11 @@ h1{
     margin-bottom: 30px;
 }
 
-.cont-plans p{
+.cont-plans ul li.options a{
+    color: blue;
+}
+
+.cont-plans li{
     margin: 20px 0;
 }
 
@@ -384,17 +394,48 @@ h1{
 
 .btn.btn-plans{
     width: 100%;
-    margin: 30px 0 20px 0;
+    margin: 30px 0 20px 8px;
+    padding-left: 20px;
 }
 
 .cont-plans hr{
     width: 60px;
-    margin: 30px 0 40px 0;
+    margin: 30px 0 40px -18px;
 }
 
-.cont-plans ul{
-    list-style-type: none;
+
+/* Icone Pseudo */
+
+.cont-plans ul li::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
 }
+
+.cont-plans li.user::before{
+    content: '\f007';
+    font-weight: 400;
+}
+
+.cont-plans li.user-black::before{
+    content: '\f007';
+}
+
+.cont-plans li.folder::before{
+    content: '\f07b';
+    font-weight: 400;
+}
+
+.cont-plans li.pen::before{
+    content: '\f304';
+}
+
+.cont-plans li.check::before{
+    content: '\f00c';
+    color: blue;
+}
+
+/* Piano bottom */
+
 
 .bottom-plans{
     width: 100%;
